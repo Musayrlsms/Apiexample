@@ -1,0 +1,9 @@
+<h1>Apitest#github</h1>
+<p>Find me in app/views/apitest/github.html.erb</p>
+   <% @features = @hash["features"]%>
+<%@features.each do |n|%>
+
+   <% @properties = n["properties"]%>
+    <%=@ilce =  @properties["ilce"]%>===>
+    <%=@isin_adi = @properties["isin_adi"]%>
+<%end%>
